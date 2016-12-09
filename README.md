@@ -14,7 +14,7 @@ A set of test images, each containing
 2. Obstacles marked as black square
 3. Objects defined by three features, viz. Shape, Size and Color 
 
-![Test Image](https://raw.githubusercontent.com/Aniruddha-Tapas/Obstacle-Detection-and-Path-Planning/master/test_images/test_image4.jpg)
+<img src="https://raw.githubusercontent.com/Aniruddha-Tapas/Obstacle-Detection-and-Path-Planning/master/test_images/test_image4.jpg" width="400" height= "400" />
 
 The squares are identified by the coordinate (x,y) where x is the column and y is the row to which the square belongs. Each square
 can be empty or have an Obstacle or have an Object.
