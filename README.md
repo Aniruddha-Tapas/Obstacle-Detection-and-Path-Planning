@@ -14,7 +14,7 @@ A set of test images, each containing
 2. Obstacles marked as black square
 3. Objects defined by three features, viz. Shape, Size and Color 
 
-![Test Image](https://github.com/Aniruddha-Tapas/Obstacle-Detection-and-Path-Planning/blob/master/test_images/test_image3.jpg)
+![Test Image](https://raw.githubusercontent.com/Aniruddha-Tapas/Obstacle-Detection-and-Path-Planning/master/test_images/test_image4.jpg)
 
 The squares are identified by the coordinate (x,y) where x is the column and y is the row to which the square belongs. Each square
 can be empty or have an Obstacle or have an Object.
@@ -23,11 +23,11 @@ can be empty or have an Obstacle or have an Object.
 
 1. The coordinates of occupied grid:
 
-The code returns a python list having ‘n’ python tuples, where ‘n’ denotes number of occupied grid in test image. Grid is to be considered occupied if either grid has an Obstacle or an Object. Each tuple has two elements, first element is the x-coordinate of an Obstacle/Object and second element is the y-coordinate of the Obstacle.
+	The code returns a python list having ‘n’ python tuples, where ‘n’ denotes number of occupied grid in test image. Grid is to be considered occupied if either grid has an Obstacle or an Object. Each tuple has two elements, first element is the x-coordinate of an Obstacle/Object and second element is the y-coordinate of the Obstacle.
 
 2. The minimum path:
 
-For each object in the test images, a matching object which is nearest to it is found using `compare_ssim` function from `scikit-image`. Object is said to be nearest to another Object, if length of path traversed between two objects is smallest. Traversal is done by moving either horizontally or vertically. The length of the path is determined by the number of moves made during traversal. [A* search](https://en.wikipedia.org/wiki/A*_search_algorithm) is used to find this shortest path.
+	For each object in the test images, a matching object which is nearest to it is found using `compare_ssim` function from `scikit-image`. Object is said to be nearest to another Object, if length of path traversed between two objects is smallest. Traversal is done by moving either horizontally or vertically. The length of the path is determined by the number of moves made during traversal. [A* search](https://en.wikipedia.org/wiki/A*_search_algorithm) is used to find this shortest path.
 
 
 The code return a python dictionary. Format for creating dictionary is as follows:
@@ -52,14 +52,14 @@ Follow the comments to undertand the code better.
 
 Dependencies
 ============
-1.  Install OpenCV for Python
-
-[`For Windows`](http://docs.opencv.org/3.1.0/d5/de5/tutorial_py_setup_in_windows.html)
-
-[`For Ubuntu`](http://www.pyimagesearch.com/2015/06/22/install-opencv-3-0-and-python-2-7-on-ubuntu/)
-
 
 [Use pip to install.](https://pypi.python.org/pypi/pip)
+
+1.  Install OpenCV for Python
+
+	[`For Windows`](http://docs.opencv.org/3.1.0/d5/de5/tutorial_py_setup_in_windows.html)
+
+	[`For Ubuntu`](http://www.pyimagesearch.com/2015/06/22/install-opencv-3-0-and-python-2-7-on-ubuntu/)
 
 2. 
 Install skimage (or scikit-image)
@@ -70,5 +70,6 @@ Open command prompt and type in:
 Install numpy 
 Open command prompt and type in:
 ```pip install numpy```
+
 
 <hr>
