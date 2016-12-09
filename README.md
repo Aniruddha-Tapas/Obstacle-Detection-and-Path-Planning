@@ -19,7 +19,7 @@ can be empty or have an Obstacle or have an Object.
 
 ### The program returns 2 major findings:
 
-<img src="https://raw.githubusercontent.com/Aniruddha-Tapas/Obstacle-Detection-and-Path-Planning/master/screenshot.png" width="400"/>
+<img src="https://raw.githubusercontent.com/Aniruddha-Tapas/Obstacle-Detection-and-Path-Planning/master/screenshot.png" />
 
 
 1. <b><u>The coordinates of occupied grid</u></b>:
