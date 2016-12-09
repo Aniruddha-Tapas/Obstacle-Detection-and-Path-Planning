@@ -21,11 +21,11 @@ can be empty or have an Obstacle or have an Object.
 
 ### The program returns 2 major findings:
 
-1. The coordinates of occupied grid:
+1. <b><u>The coordinates of occupied grid</u></b>:
 
 	The code returns a python list having ‘n’ python tuples, where ‘n’ denotes number of occupied grid in test image. Grid is to be considered occupied if either grid has an Obstacle or an Object. Each tuple has two elements, first element is the x-coordinate of an Obstacle/Object and second element is the y-coordinate of the Obstacle.
 
-2. The minimum path:
+2. <b><u/>The minimum path<u/></b>:
 
 	For each object in the test images, a matching object which is nearest to it is found using `compare_ssim` function from `scikit-image`. Object is said to be nearest to another Object, if length of path traversed between two objects is smallest. Traversal is done by moving either horizontally or vertically. The length of the path is determined by the number of moves made during traversal. [A* search](https://en.wikipedia.org/wiki/A*_search_algorithm) is used to find this shortest path.
 
