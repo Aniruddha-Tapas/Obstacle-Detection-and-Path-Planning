@@ -19,6 +19,9 @@ can be empty or have an Obstacle or have an Object.
 
 ### The program returns 2 major findings:
 
+<img src="https://raw.githubusercontent.com/Aniruddha-Tapas/Obstacle-Detection-and-Path-Planning/master/screenshot.png" width="400"/>
+
+
 1. <b><u>The coordinates of occupied grid</u></b>:
 
 	The code returns a python list having ‘n’ python tuples, where ‘n’ denotes number of occupied grid in test image. Grid is to be considered occupied if either grid has an Obstacle or an Object. Each tuple has two elements, first element is the x-coordinate of an Obstacle/Object and second element is the y-coordinate of the Obstacle.
