@@ -1,7 +1,7 @@
 <hr>
 # Obstacle-Detection-and-Path-Planning
 
-Path planning is a technique used for find the shortest path between a source and destination.
+Path planning is a technique used to find the shortest path between a source and destination.
 Path planning ensures that navigation is done in least time and in most optimized way, saving energy and providing a optimized way of the doing task.
 
 ### Given:
