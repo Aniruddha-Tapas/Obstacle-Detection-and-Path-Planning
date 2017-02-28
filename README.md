@@ -48,6 +48,7 @@ Check that script to see the main functionality.
 Follow the comments to undertand the code better.
 
 `astarsearch.py` contains the implemenatation of A* search algo. 
+
 `traversal.py` contains the script to traverse through the image to find objects/min path. 
 
 ##Dependencies
@@ -62,13 +63,15 @@ Follow the comments to undertand the code better.
 
 2. 
 Install skimage (or scikit-image)
-Open command prompt and type in:
-```pip install scikit-image```
+
+	Open command prompt and type in:
+	```pip install scikit-image```
 
 3. 
 Install numpy 
-Open command prompt and type in:
-```pip install numpy```
+
+	Open command prompt and type in:
+	```pip install numpy```
 
 
 <hr>
