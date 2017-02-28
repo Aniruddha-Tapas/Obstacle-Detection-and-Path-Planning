@@ -47,7 +47,7 @@ The `process_image.py` contains the major code.
 Check that script to see the main functionality.
 Follow the comments to undertand the code better.
 
-`astarsearch.py` contains the implemenatation of A* search algo. 
+`astarsearch.py` contains the implementation of A* search algo. 
 
 `traversal.py` contains the script to traverse through the image to find objects/min path. 
 
