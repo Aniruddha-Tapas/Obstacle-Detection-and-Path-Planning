@@ -1,4 +1,5 @@
 <hr>
+
 # Obstacle-Detection-and-Path-Planning
 
 Path planning is a technique used to find the shortest path between a source and destination.
@@ -38,7 +39,7 @@ The code return a python dictionary. Format for creating dictionary is as follow
 * third element of dictionary should be number of moves taken for traversal
 
 
-##Basic Usage
+## Basic Usage
 
 Run `main.py` to check the results.
 You can edit the test image from main.py to see different results.
@@ -51,7 +52,7 @@ Follow the comments to undertand the code better.
 
 `traversal.py` contains the script to traverse through the image to find objects/min path. 
 
-##Dependencies
+## Dependencies
 
 [Use pip to install.](https://pypi.python.org/pypi/pip)
 
@@ -61,14 +62,13 @@ Follow the comments to undertand the code better.
 
 	[`For Ubuntu`](http://www.pyimagesearch.com/2015/06/22/install-opencv-3-0-and-python-2-7-on-ubuntu/)
 
-2. 
-Install skimage (or scikit-image)
+
+2. Install skimage (or scikit-image)
 
 	Open command prompt and type in:
 	```pip install scikit-image```
 
-3. 
-Install numpy 
+3. Install numpy 
 
 	Open command prompt and type in:
 	```pip install numpy```
